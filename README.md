@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="./assets/amseok-readme-banner.png" alt="Amseok" width="100%" />
+</p>
+
 # Hi there 👋
 
 I'm **SonKihon**, a builder at [AmseokTech](https://github.com/AmseokTech). I enjoy turning ideas into focused tools and useful products.
