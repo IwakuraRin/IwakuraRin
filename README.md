@@ -13,13 +13,20 @@ I'm **SonKihon**, a builder at [AmseokTech](https://github.com/AmseokTech). I en
 
 ## Featured Projects
 
-- 🚀 **[OhMyComFTP](https://github.com/IwakuraRin/OhMyComFTP)**<br>
-  A local CLI bridge for forwarding terminal sessions to mobile and other devices.<br>
-  `C#` `CLI` `Terminal Bridge`
-
-- 🖥️ **[AmseokOS](https://github.com/AmseokTech/AmseokOS)**<br>
-  A server management platform integrating NAS, clusters, virtual machines and an application marketplace.<br>
-  `C#` `NAS` `Cluster Management` `Virtualization`
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>🚀 <a href="https://github.com/IwakuraRin/OhMyComFTP">OhMyComFTP</a></h3>
+      <p>A local CLI bridge for forwarding terminal sessions to mobile and other devices.</p>
+      <p><code>C#</code> <code>CLI</code> <code>Terminal Bridge</code></p>
+    </td>
+    <td width="50%" valign="top">
+      <h3>🖥️ <a href="https://github.com/AmseokTech/AmseokOS">AmseokOS</a></h3>
+      <p>A server management platform integrating NAS, clusters, virtual machines and an application marketplace.</p>
+      <p><code>C#</code> <code>NAS</code> <code>Cluster Management</code> <code>Virtualization</code></p>
+    </td>
+  </tr>
+</table>
 
 ## Projects & Contribution
 
