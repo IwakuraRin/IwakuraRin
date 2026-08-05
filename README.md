@@ -4,7 +4,10 @@ I'm **SonKihon**, a builder at [AmseokTech](https://github.com/AmseokTech). I en
 
 ⚡ Focused on: **developer tools, AI-assisted workflows and desktop applications**
 
-🛠️ Working with: **Rust, TypeScript, React, Tauri and C#**
+<p>
+  🛠️ Working with:
+  <img src="https://skillicons.dev/icons?i=rust,ts,react,tauri,cs&theme=light" alt="Rust, TypeScript, React, Tauri and C#" height="32" />
+</p>
 
 ## Projects & Contribution
 
