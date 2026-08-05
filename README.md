@@ -8,4 +8,4 @@ I'm **SonKihon**, a builder at [AmseokTech](https://github.com/AmseokTech). I en
 
 ## Projects & Contribution
 
-![Total Commits](https://img.shields.io/badge/Total%20Commits%20%28last%20year%29-315-2F81F7?style=flat-square) ![Total PRs](https://img.shields.io/badge/Total%20PRs-73-2F81F7?style=flat-square)
+<img src="./assets/contribution-stats.svg" alt="Total Commits (last year): 315 · Total PRs: 73" width="467" />
