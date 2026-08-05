@@ -16,16 +16,19 @@ I'm **SonKihon**, a builder at [AmseokTech](https://github.com/AmseokTech). I en
 <table width="100%">
   <tr>
     <td width="100%" valign="top">
-      <h3><a href="https://github.com/IwakuraRin/OhMyComFTP">OhMyComFTP</a></h3>
-      <p>A local CLI bridge for forwarding terminal sessions to mobile and other devices.</p>
-      <p><code>C#</code> <code>CLI</code> <code>Terminal Bridge</code></p>
+      <strong><a href="https://github.com/IwakuraRin/OhMyComFTP">OhMyComFTP</a></strong><br><br>
+      A better serial port tool.<br><br>
+      <code>C#</code> <code>.NET</code> <code>Serial Port</code>
     </td>
   </tr>
+</table>
+
+<table width="100%">
   <tr>
     <td width="100%" valign="top">
-      <h3><a href="https://github.com/AmseokTech/AmseokOS">AmseokOS</a></h3>
-      <p>A server management platform integrating NAS, clusters, virtual machines and an application marketplace.</p>
-      <p><code>C#</code> <code>NAS</code> <code>Cluster Management</code> <code>Virtualization</code></p>
+      <strong><a href="https://github.com/AmseokTech/AmseokOS">AmseokOS</a></strong><br><br>
+      A server management platform integrating NAS, clusters, virtual machines and an application marketplace.<br><br>
+      <code>C#</code> <code>NAS</code> <code>Cluster Management</code> <code>Virtualization</code>
     </td>
   </tr>
 </table>
