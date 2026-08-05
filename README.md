@@ -6,7 +6,9 @@ I'm **SonKihon**, a builder at [AmseokTech](https://github.com/AmseokTech). I en
 
 <p>
   🛠️ Working with:
-  <img src="https://skillicons.dev/icons?i=rust,ts,react,tauri,cs&theme=light" alt="Rust, TypeScript, React, Tauri and C#" height="32" />
+</p>
+<p>
+  <img src="https://skillicons.dev/icons?i=rust,ts,react,tauri,cs,angular,cpp,c,dotnet,debian,linux,docker&theme=light&perline=12" alt="Rust, TypeScript, React, Tauri, C#, Angular, C++, C, .NET Core, Debian, Linux and Docker" height="48" />
 </p>
 
 ## Projects & Contribution
