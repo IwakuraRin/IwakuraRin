@@ -1,12 +1,12 @@
 <p align="center">
-  <img src="./assets/amseok-readme-banner.png" alt="Amseok" width="100%" />
+  <img src="./assets/lavamilk-readme-banner.png" alt="Lavamilk — a pastel blue mascot with pink and blue lettering" width="100%" />
 </p>
 
 # Hi there 👋
 
-I'm **SonKihon**, a builder at [AmseokTech](https://github.com/AmseokTech). I enjoy turning ideas into focused tools and useful products.
+I'm **SonKihon**, building [LavamilkSMT](https://github.com/lavamilkTeam/LavamilkSMT) with [Lavamilk](https://github.com/lavamilkTeam). I enjoy bringing software and hardware together, from an idea on screen to something that moves on the workbench.
 
-⚡ Focused on: **developer tools, AI-assisted workflows and desktop applications**
+⚡ Currently focused on: **desktop pick-and-place machines, machine vision and motion control**
 
 <p>
   🛠️ Working with:
@@ -15,25 +15,22 @@ I'm **SonKihon**, a builder at [AmseokTech](https://github.com/AmseokTech). I en
   <img src="https://skillicons.dev/icons?i=rust,ts,react,tauri,cs,angular,cpp,c,dotnet,debian,linux,docker&theme=light&perline=12" alt="Rust, TypeScript, React, Tauri, C#, Angular, C++, C, .NET Core, Debian, Linux and Docker" height="48" />
 </p>
 
-## Featured Projects
+## Building LavamilkSMT
+
+A desktop pick-and-place project for electronics enthusiasts and small-batch PCB assembly, bringing mechanical design, electronics, machine vision and control software into one workspace.
 
 <table width="100%">
   <tr>
     <td width="100%" valign="top">
-      <strong>OhMyComFTP</strong>（A better serial port tool.）<br>
-      <code>C#</code> <code>.NET</code> <code>Serial Port</code><br>
-      <a href="https://github.com/IwakuraRin/OhMyComFTP"><kbd>View Project →</kbd></a>
-    </td>
-  </tr>
-  <tr>
-    <td width="100%" valign="top">
-      <strong>AmseokOS</strong><br>
-      A server management platform integrating NAS, clusters, virtual machines and an application marketplace.<br>
-      <code>C#</code> <code>NAS</code> <code>Cluster Management</code> <code>Virtualization</code><br>
-      <a href="https://github.com/AmseokTech/AmseokOS"><kbd>View Project →</kbd></a>
+      <strong>LavamilkSMT</strong><br>
+      From PCB assembly preparation to vision-guided component placement.<br><br>
+      <code>Python</code> <code>OpenCV</code> <code>Linux</code> <code>Motion Control</code> <code>Mechanical Design</code><br><br>
+      <a href="https://github.com/lavamilkTeam/LavamilkSMT"><kbd>Explore the Project →</kbd></a>
     </td>
   </tr>
 </table>
+
+**In development:** the project currently includes a headless Python control skeleton, simulated positioning, LAN discovery and status connections, and USB camera preview. Real motion control and vision-based positioning are the next steps.
 
 ## Projects & Contribution
 
