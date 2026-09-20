@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/lavamilk-readme-banner.png" alt="Lavamilk — a pastel blue mascot with pink and blue lettering" width="100%" />
+  <img src="./assets/lavamilk-readme-banner-compact.png" alt="Lavamilk — a pastel blue mascot with pink and blue lettering" width="100%" />
 </p>
 
 # Hi there 👋
