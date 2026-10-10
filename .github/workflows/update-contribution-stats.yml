@@ -1,0 +1,67 @@
+name: Update contribution statistics
+
+on:
+  schedule:
+    - cron: '17 * * * *'
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/update-contribution-stats.yml'
+      - 'scripts/**'
+      - 'tests/**'
+      - 'assets/contribution-stats.svg'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: contribution-statistics
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+        with:
+          ref: main
+
+      - name: Check the updater
+        run: python3 -m unittest discover -s tests -v
+
+      - name: Fetch contribution statistics
+        env:
+          GH_TOKEN: ${{ github.token }}
+          PROFILE_USER: ${{ github.repository_owner }}
+        shell: bash
+        run: |
+          gh api graphql \
+            -f query='query($login: String!, $from: DateTime!, $to: DateTime!) {
+              user(login: $login) {
+                contributionsCollection(from: $from, to: $to) { totalCommitContributions }
+                pullRequests { totalCount }
+              }
+            }' \
+            -f login="$PROFILE_USER" \
+            -f from="$(date -u -d '365 days ago' +%Y-%m-%dT%H:%M:%SZ)" \
+            -f to="$(date -u +%Y-%m-%dT%H:%M:%SZ)" \
+            > "$RUNNER_TEMP/contribution-stats.json"
+
+      - name: Update the card
+        run: python3 scripts/update_contribution_stats.py < "$RUNNER_TEMP/contribution-stats.json"
+
+      - name: Commit changed statistics
+        shell: bash
+        run: |
+          if git diff --quiet -- assets/contribution-stats.svg; then
+            echo 'Statistics are unchanged.'
+            exit 0
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add assets/contribution-stats.svg
+          git commit -m 'chore: refresh contribution statistics'
+          git pull --rebase origin main
+          git push origin HEAD:main

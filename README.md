@@ -34,4 +34,4 @@ A desktop pick-and-place project for electronics enthusiasts and small-batch PCB
 
 ## Projects & Contribution
 
-<img src="./assets/contribution-stats.svg" alt="Total Commits (last year): 315 · Total PRs: 73" width="467" />
+<img src="./assets/contribution-stats.svg" alt="GitHub contribution statistics: commits in the last year and total pull requests, refreshed hourly" width="467" />
